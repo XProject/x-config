@@ -6,7 +6,7 @@ local function disableShuff()
 end
 
 lib.onCache("vehicle", function(value)
-    if value and (GetIsTaskActive(cache.ped, 165) or cache.seat == 0) then
+    if value and (GetIsTaskActive(cache.ped, 165) or GetSeatPedIsTryingToEnter(cache.ped) == 0 or cache.seat == 0) then
         disableShuff()
     end
 end)

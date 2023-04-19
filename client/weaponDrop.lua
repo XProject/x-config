@@ -1,5 +1,3 @@
-if Config.EnablePickingUpDroppedWeapon then return end
-
 local playerId = PlayerId()
 local weaponHashes = {
     `PICKUP_WEAPON_ADVANCEDRIFLE`,
@@ -88,24 +86,31 @@ local weaponHashes = {
     `PICKUP_WEAPON_WRENCH`
 }
 
-local function EnablePickingUpDroppedWeapon(state, weapon)
+---enable/disable picking up dropped weapon
+---@param state boolean
+---@param weapon? string | number
+local function enablePickingUpDroppedWeapon(state, weapon)
     if state == nil then return end
+
     if weapon then
         weapon = type(weapon) == "string" and joaat(weapon) or weapon
         ToggleUsePickupsForPlayer(playerId, weapon, state)
         return
     end
+
     for i = 1, #weaponHashes do
         ToggleUsePickupsForPlayer(playerId, weaponHashes[i], state)
     end
 end
 
 CreateThread(function()
-    EnablePickingUpDroppedWeapon(false)
+    enablePickingUpDroppedWeapon(Config.EnablePickingUpDroppedWeapon)
 end)
 
 AddEventHandler("onResourceStop", function(resource)
     if resource == GetCurrentResourceName() then
-        EnablePickingUpDroppedWeapon(true)
+        enablePickingUpDroppedWeapon(true)
     end
 end)
+
+exports("enablePickingUpDroppedWeapon", enablePickingUpDroppedWeapon)

@@ -31,5 +31,5 @@ RegisterCommand("suicide", function()
         SetPedShootsAtCoord(cache.ped, 0.0, 0.0, 0.0, false)
         SetEntityHealth(cache.ped, 0)
     end
-    lib.notify({title = message, type = "error", duration = 5000})
+    lib.notify({ title = message, type = "error", duration = 5000 })
 end, false)
