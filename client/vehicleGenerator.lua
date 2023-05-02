@@ -26,4 +26,4 @@ CreateThread(function()
     end
 end)
 
-export("generateVehiclesInArea", generateVehiclesInArea)
+exports("generateVehiclesInArea", generateVehiclesInArea)
