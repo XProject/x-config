@@ -7,13 +7,13 @@ CreateThread(function()
         DisableIdleCamera(true)
     end
 
-    for i = 1, 15 do
-        EnableDispatchService(i, false)
+    for i = 1, #Config.DispatchServices do
+        EnableDispatchService(i, Config.DispatchServices[i])
     end
 
-    SetMaxWantedLevel(0)
+    SetMaxWantedLevel(Config.DisableWantedLevel and 0 or 5)
     SetAudioFlag("PoliceScannerDisabled", true)
-    DistantCopCarSirens(false)
+    DistantCopCarSirens(not Config.DisableDistantCopSirens)
     SetCreateRandomCops(false)
     SetCreateRandomCopsNotOnScenarios(false)
     SetCreateRandomCopsOnScenarios(false)

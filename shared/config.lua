@@ -1,14 +1,18 @@
-Config                        = {}
+Config                         = {}
 
-Config.DisableAmbience        = true
+Config.DisableAmbience         = true -- Disables random vehicle sounds and sirens
 
-Config.DisableIdleCamera      = true -- Disables the game's afk camera that starts panning around after 30 seconds of inactivity
+Config.DisableDistantCopSirens = true -- Disables random distant cop car sirens
 
-Config.EnablePopulation       = true
+Config.DisableIdleCamera       = true -- Disables the game's afk camera that starts panning around after 30 seconds of inactivity
 
-Config.DisableAimAssist       = true
+Config.EnablePopulation        = true -- Enables or disables the population
 
-Config.Density                = {
+Config.DisableAimAssist        = true -- Disables the aim assist specially while using controllers
+
+Config.DisableWantedLevel      = true -- Disables the normal GTA wanted level
+
+Config.Density                 = {
     ["peds"] = 0.5,
     ["vehicles"] = 0.2,
     ["parkedVehicles"] = 0.1,
@@ -16,7 +20,8 @@ Config.Density                = {
     ["scenario"] = 0.8,
 }
 
-Config.RemoveVehiclesInArea   = {
+-- Disables the game from spawning random npc vehicles in these area
+Config.RemoveVehiclesInArea    = {
     { coords = vector3(441.8465, -987.99, 30.68),   range = 500.0 }, -- Police station mission row
     { coords = vector3(-458.24, 6019.81, 31.34),    range = 300.0 }, -- Police station paleto
     { coords = vector3(1854.82, 3679.4, 33.82),     range = 300.0 }, -- Police station sandy
@@ -27,7 +32,27 @@ Config.RemoveVehiclesInArea   = {
     { coords = vector3(-724.46, -1444.03, 5.0),     range = 300.0 }, -- Choppers?
 }
 
-Config.HudCommonents          = {
+-- Enables or disables the specified dispatch services. They are used for spawning AI response peds/vehicles for events such as a fire in the street (type 3 - DT_FireDepartment), or gunfire in a gang area (type 11 - DT_Gangs)
+Config.DispatchServices        = {
+    [1] = false,  -- DT_PoliceAutomobile,
+    [2] = false,  -- DT_PoliceHelicopter
+    [3] = false,  -- DT_FireDepartment
+    [4] = false,  -- DT_SwatAutomobile
+    [5] = false,  -- DT_AmbulanceDepartment
+    [6] = false,  -- DT_PoliceRiders
+    [7] = false,  -- DT_PoliceVehicleRequest
+    [8] = false,  -- DT_PoliceRoadBlock
+    [9] = false,  -- DT_PoliceAutomobileWaitPulledOver
+    [10] = false, -- DT_PoliceAutomobileWaitCruising
+    [11] = false, -- DT_Gangs
+    [12] = false, -- DT_SwatHelicopter
+    [13] = false, -- DT_PoliceBoat
+    [14] = false, -- DT_ArmyVehicle
+    [15] = false, -- DT_BikerBackup
+}
+
+-- Enables or disables the specified hud components
+Config.HudCommonents           = {
     [1] = false,  -- WANTED_STARS,
     [2] = false,  -- WEAPON_ICON
     [3] = false,  -- CASH
@@ -52,7 +77,8 @@ Config.HudCommonents          = {
     [22] = false, -- HUD_WEAPONS
 }
 
-Config.WeaponsToDisablePickup = {
+-- Prevents player from picking up these dropped weapons on the ground when walking over them
+Config.WeaponsToDisablePickup  = {
     `PICKUP_WEAPON_ADVANCEDRIFLE`,
     `PICKUP_WEAPON_APPISTOL`,
     `PICKUP_WEAPON_ASSAULTRIFLE`,
