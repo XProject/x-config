@@ -1,8 +1,16 @@
+local api = setmetatable({}, {
+    __newindex = function(self, index, value)
+        exports(index, value)
+        rawset(self, index, value)
+    end
+})
+
 ---enable/disable population in rounting buckets
 ---@param state boolean
----@param bucketId integer
-local function enablePopulation(state, bucketId)
-    if state == nil then return end
+---@param bucketId? integer
+function api.enablePopulation(state, bucketId)
+    if type(state) ~= "boolean" then return end
+    if bucketId and type(bucketId) ~= "number" then return end
 
     if bucketId then
         SetRoutingBucketPopulationEnabled(bucketId, state)
@@ -14,12 +22,13 @@ local function enablePopulation(state, bucketId)
     end
 end
 
-do enablePopulation(Config.EnablePopulation) end
+do api.enablePopulation(Config.EnablePopulation) end
 
-AddEventHandler("onResourceStop", function(resource)
-    if resource == GetCurrentResourceName() then
-        enablePopulation(true)
-    end
-end)
+local function onResourceStop(resource)
+    if resource ~= GetCurrentResourceName() then return end
 
-exports("enablePopulation", enablePopulation)
+    enablePopulation(true)
+end
+
+AddEventHandler("onResourceStop", onResourceStop)
+AddEventHandler("onServerResourceStop", onResourceStop)

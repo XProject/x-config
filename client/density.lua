@@ -67,7 +67,6 @@ function api.setScenarioPedDensity(density)
 end
 
 ---Gets the client-side population enabled/disabled state
----@param density number
 ---@return boolean
 function api.isPopulationEnabled()
     return isPopulationEnabled
