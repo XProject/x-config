@@ -24,3 +24,28 @@ Config.RemoveVehiclesInArea = {
     { coords = vector3(-1108.35, 4920.64, 217.2),   range = 300.0 }, -- Nudist
     { coords = vector3(-724.46, -1444.03, 5.0),     range = 300.0 }, -- Choppers?
 }
+
+Config.HudCommonents  = {
+    [1] = false,  -- WANTED_STARS,
+    [2] = false,  -- WEAPON_ICON
+    [3] = false,  -- CASH
+    [4] = false,  -- MP_CASH
+    [5] = false,  -- MP_MESSAGE
+    [6] = false,  -- VEHICLE_NAME
+    [7] = false,  -- AREA_NAME
+    [8] = false,  -- VEHICLE_CLASS
+    [9] = false,  -- STREET_NAME
+    [10] = false, -- HELP_TEXT
+    [11] = false, -- FLOATING_HELP_TEXT_1
+    [12] = false, -- FLOATING_HELP_TEXT_2
+    [13] = false, -- CASH_CHANGE
+    [14] = false, -- RETICLE
+    [15] = false, -- SUBTITLE_TEXT
+    [16] = false, -- RADIO_STATIONS
+    [17] = false, -- SAVING_GAME,
+    [18] = false, -- GAME_STREAM
+    [19] = false, -- WEAPON_WHEEL
+    [20] = false, -- WEAPON_WHEEL_STATS
+    [21] = false, -- HUD_COMPONENTS
+    [22] = false, -- HUD_WEAPONS
+}
