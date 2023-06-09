@@ -25,7 +25,7 @@ end
 do api.enablePopulation(Config.EnablePopulation) end
 
 local function onResourceStop(resource)
-    if resource ~= GetCurrentResourceName() then return end
+    if resource ~= cache.resource then return end
 
     enablePopulation(true)
 end
