@@ -5,7 +5,7 @@ local api = setmetatable({}, {
     end
 })
 
----enable/disable vehicles from generating in an area
+---Enables/Disables vehicles from generating in an area
 ---@param state boolean
 ---@param coords vector3
 ---@param range? number defaults to 100.0 if not provided

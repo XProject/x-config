@@ -13,7 +13,14 @@ local suicideWeapons = {
     `WEAPON_MARKSMANPISTOL`
 }
 
-RegisterCommand("suicide", function()
+local api = setmetatable({}, {
+    __newindex = function(self, index, value)
+        exports(index, value)
+        rawset(self, index, value)
+    end
+})
+
+function api.suicide()
     local canSuicide, message = false, "You don't have a pistol in your hand"
 
     for i = 1, #suicideWeapons do
@@ -31,5 +38,8 @@ RegisterCommand("suicide", function()
         SetPedShootsAtCoord(cache.ped, 0.0, 0.0, 0.0, false)
         SetEntityHealth(cache.ped, 0)
     end
+
     lib.notify({ title = message, type = "error", duration = 5000 })
-end, false)
+end
+
+RegisterCommand("suicide", api.suicide, false)

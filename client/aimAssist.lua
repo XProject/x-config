@@ -1,6 +1,6 @@
 local isAimAssistDisabled = false
 
----Enables/Disables aim assist
+---Enables/Disables aim assist - Internal use
 ---@param state boolean
 local function disableAimAssist(state)
     if type(state) ~= "boolean" then return end

@@ -36,5 +36,4 @@ function api.shuffleSeat()
     end
 end
 
-
 RegisterCommand("shuff", api.shuffleSeat, false)

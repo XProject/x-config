@@ -5,6 +5,10 @@ local api = setmetatable({}, {
     end
 })
 
+---Sets position of the hud component
+---@param hudId integer
+---@param posX number
+---@param posY number
 function api.setHudPosition(hudId, posX, posY)
     if type(hudId) ~= "number" then return end
     if type(posX) ~= "number" then return end
@@ -13,6 +17,8 @@ function api.setHudPosition(hudId, posX, posY)
     SetHudComponentPosition(hudId, posX, posY)
 end
 
+---Resets position of the hud component
+---@param hudId integer
 function api.resetHudPosition(hudId)
     ResetHudComponentValues(hudId)
 end
