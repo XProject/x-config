@@ -1,10 +1,16 @@
 local isPopulationEnabled = false
+local api = setmetatable({}, {
+    __newindex = function(self, index, value)
+        exports(index, value)
+        rawset(self, index, value)
+    end
+})
 
----enable/disable population -  only works if current rounting bucket has population enabled...
+---Enables/Disables population -  only works if the player's rounting bucket has population enabled on server side...
 ---@param state boolean
-local function enablePopulation(state)
-    if state == nil then return end
-    if isPopulationEnabled and state then return end
+function api.enablePopulation(state)
+    if type(state) ~= "boolean" then return end
+    if isPopulationEnabled == state then return end
 
     isPopulationEnabled = state
 
@@ -20,56 +26,51 @@ local function enablePopulation(state)
     end)
 end
 
----set parked vehicles density multiplier
+---Sets parked vehicles density multiplier
 ---@param density number
-local function setParkedVehicleDensity(density)
+function api.setParkedVehicleDensity(density)
     if type(density) ~= "number" then return end
 
     Config.Density["parkedVehicles"] = density
 end
 
----set vehicles density multiplier
+---Sets vehicles density multiplier
 ---@param density number
-local function setVehicleDensity(density)
+function api.setVehicleDensity(density)
     if type(density) ~= "number" then return end
 
     Config.Density["vehicles"] = density
 end
 
----set random vehicle density multiplier
+---Sets random vehicle density multiplier
 ---@param density number
-local function setRandomVehicleDensity(density)
+function api.setRandomVehicleDensity(density)
     if type(density) ~= "number" then return end
 
     Config.Density["randomVehicle"] = density
 end
 
----set peds density multiplier
+---Sets peds density multiplier
 ---@param density number
-local function setPedDensity(density)
+function api.setPedDensity(density)
     if type(density) ~= "number" then return end
 
     Config.Density["peds"] = density
 end
 
----set scenario density multiplier
+---Sets scenario density multiplier
 ---@param density number
-local function setScenarioDensity(density)
+function api.setScenarioPedDensity(density)
     if type(density) ~= "number" then return end
 
     Config.Density["scenario"] = density
 end
 
-do enablePopulation(Config.EnablePopulation) end
+---Gets the client-side population enabled/disabled state
+---@param density number
+---@return boolean
+function api.isPopulationEnabled()
+    return isPopulationEnabled
+end
 
-exports("enablePopulation", enablePopulation)
-
-exports("setParkedVehicleDensity", setParkedVehicleDensity)
-
-exports("setVehicleDensity", setVehicleDensity)
-
-exports("setRandomVehicleDensity", setRandomVehicleDensity)
-
-exports("setPedDensity", setPedDensity)
-
-exports("setScenarioDensity", setScenarioDensity)
+do api.enablePopulation(Config.EnablePopulation) end
