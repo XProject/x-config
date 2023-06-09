@@ -1,12 +1,14 @@
-Config = {}
+Config                      = {}
 
-Config.DisableAmbience = true
+Config.DisableAmbience      = true
 
-Config.DisableIdleCamera = true -- Disables the game's afk camera that starts panning around after 30 seconds of inactivity
+Config.DisableIdleCamera    = true -- Disables the game's afk camera that starts panning around after 30 seconds of inactivity
 
-Config.EnablePopulation = true
+Config.EnablePopulation     = true
 
-Config.Density = {
+Config.DisableAimAssist     = true
+
+Config.Density              = {
     ["peds"] = 0.5,
     ["vehicles"] = 0.2,
     ["parkedVehicles"] = 0.1,
@@ -25,7 +27,7 @@ Config.RemoveVehiclesInArea = {
     { coords = vector3(-724.46, -1444.03, 5.0),     range = 300.0 }, -- Choppers?
 }
 
-Config.HudCommonents  = {
+Config.HudCommonents        = {
     [1] = false,  -- WANTED_STARS,
     [2] = false,  -- WEAPON_ICON
     [3] = false,  -- CASH
