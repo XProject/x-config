@@ -27,7 +27,7 @@ do api.enablePopulation(Config.EnablePopulation) end
 local function onResourceStop(resource)
     if resource ~= cache.resource then return end
 
-    enablePopulation(true)
+    api.enablePopulation(true)
 end
 
 AddEventHandler("onResourceStop", onResourceStop)

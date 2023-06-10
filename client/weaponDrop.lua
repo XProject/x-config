@@ -28,7 +28,7 @@ do api.enablePickingUpDroppedWeapon(Config.EnablePickingUpDroppedWeapon) end
 local function onResourceStop(resource)
     if resource ~= cache.resource then return end
 
-    enablePickingUpDroppedWeapon(true)
+    api.enablePickingUpDroppedWeapon(true)
 end
 
 AddEventHandler("onResourceStop", onResourceStop)

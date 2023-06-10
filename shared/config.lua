@@ -51,30 +51,30 @@ Config.DispatchServices        = {
     [15] = false, -- DT_BikerBackup
 }
 
--- Enables or disables the specified hud components
+-- Hud components that are available to show on screen. If *false*, the specified hud component is moved to out of the screen so it sort of become disable/un-seeable
 Config.HudCommonents           = {
-    [1] = false,  -- WANTED_STARS,
-    [2] = false,  -- WEAPON_ICON
+    [1] = true,   -- WANTED_STARS,
+    [2] = true,   -- WEAPON_ICON
     [3] = false,  -- CASH
     [4] = false,  -- MP_CASH
-    [5] = false,  -- MP_MESSAGE
-    [6] = false,  -- VEHICLE_NAME
-    [7] = false,  -- AREA_NAME
+    [5] = true,   -- MP_MESSAGE
+    [6] = true,   -- VEHICLE_NAME
+    [7] = true,   -- AREA_NAME
     [8] = false,  -- VEHICLE_CLASS
-    [9] = false,  -- STREET_NAME
-    [10] = false, -- HELP_TEXT
-    [11] = false, -- FLOATING_HELP_TEXT_1
-    [12] = false, -- FLOATING_HELP_TEXT_2
-    [13] = false, -- CASH_CHANGE
+    [9] = true,   -- STREET_NAME
+    [10] = true,  -- HELP_TEXT
+    [11] = true,  -- FLOATING_HELP_TEXT_1
+    [12] = true,  -- FLOATING_HELP_TEXT_2
+    [13] = true,  -- CASH_CHANGE
     [14] = false, -- RETICLE
-    [15] = false, -- SUBTITLE_TEXT
-    [16] = false, -- RADIO_STATIONS
-    [17] = false, -- SAVING_GAME,
-    [18] = false, -- GAME_STREAM
-    [19] = false, -- WEAPON_WHEEL
+    [15] = true,  -- SUBTITLE_TEXT
+    [16] = true,  -- RADIO_STATIONS
+    [17] = true,  -- SAVING_GAME,
+    [18] = true,  -- GAME_STREAM
+    [19] = true,  -- WEAPON_WHEEL
     [20] = false, -- WEAPON_WHEEL_STATS
-    [21] = false, -- HUD_COMPONENTS
-    [22] = false, -- HUD_WEAPONS
+    [21] = true,  -- HUD_COMPONENTS
+    [22] = true,  -- HUD_WEAPONS
 }
 
 -- Prevents player from picking up these dropped weapons on the ground when walking over them
