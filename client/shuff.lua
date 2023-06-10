@@ -1,3 +1,5 @@
+if not Config.DisableAutomaticShuffle then return end
+
 ---Disables automatic seat shuffling from passenger to driver
 local function disableSeatShuffle()
     for _ = 1, 100 do

@@ -6,13 +6,15 @@ Config.DisableDistantCopSirens = true -- Disables random distant cop car sirens
 
 Config.DisableIdleCamera       = true -- Disables the game's afk camera that starts panning around after 30 seconds of inactivity
 
-Config.EnablePopulation        = true -- Enables or disables the population
-
 Config.DisableAimAssist        = true -- Disables the aim assist specially while using controllers
 
 Config.DisableWantedLevel      = true -- Disables the normal GTA wanted level
 
-Config.Density                 = {
+Config.DisableAutomaticShuffle = true -- Disables the automatic vehicle seat shuffle from passenger to driver
+
+Config.EnablePopulation        = true -- Enables or disables the population
+
+Config.PopulationDensity       = {
     ["peds"] = 0.5,
     ["vehicles"] = 0.2,
     ["parkedVehicles"] = 0.1,

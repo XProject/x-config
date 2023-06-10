@@ -16,11 +16,11 @@ function api.enablePopulation(state)
 
     CreateThread(function()
         while isPopulationEnabled do
-            SetParkedVehicleDensityMultiplierThisFrame(Config.Density["parkedVehicles"])
-            SetVehicleDensityMultiplierThisFrame(Config.Density["vehicles"])
-            SetRandomVehicleDensityMultiplierThisFrame(Config.Density["randomVehicle"])
-            SetPedDensityMultiplierThisFrame(Config.Density["peds"])
-            SetScenarioPedDensityMultiplierThisFrame(Config.Density["scenario"], Config.Density["scenario"]) -- Walking NPC Density
+            SetParkedVehicleDensityMultiplierThisFrame(Config.PopulationDensity["parkedVehicles"])
+            SetVehicleDensityMultiplierThisFrame(Config.PopulationDensity["vehicles"])
+            SetRandomVehicleDensityMultiplierThisFrame(Config.PopulationDensity["randomVehicle"])
+            SetPedDensityMultiplierThisFrame(Config.PopulationDensity["peds"])
+            SetScenarioPedDensityMultiplierThisFrame(Config.PopulationDensity["scenario"], Config.PopulationDensity["scenario"]) -- Walking NPC Density
             Wait(0)
         end
     end)
@@ -31,7 +31,7 @@ end
 function api.setParkedVehicleDensity(density)
     if type(density) ~= "number" then return end
 
-    Config.Density["parkedVehicles"] = density
+    Config.PopulationDensity["parkedVehicles"] = density
 end
 
 ---Sets vehicles density multiplier
@@ -39,7 +39,7 @@ end
 function api.setVehicleDensity(density)
     if type(density) ~= "number" then return end
 
-    Config.Density["vehicles"] = density
+    Config.PopulationDensity["vehicles"] = density
 end
 
 ---Sets random vehicle density multiplier
@@ -47,7 +47,7 @@ end
 function api.setRandomVehicleDensity(density)
     if type(density) ~= "number" then return end
 
-    Config.Density["randomVehicle"] = density
+    Config.PopulationDensity["randomVehicle"] = density
 end
 
 ---Sets peds density multiplier
@@ -55,7 +55,7 @@ end
 function api.setPedDensity(density)
     if type(density) ~= "number" then return end
 
-    Config.Density["peds"] = density
+    Config.PopulationDensity["peds"] = density
 end
 
 ---Sets scenario density multiplier
@@ -63,7 +63,7 @@ end
 function api.setScenarioPedDensity(density)
     if type(density) ~= "number" then return end
 
-    Config.Density["scenario"] = density
+    Config.PopulationDensity["scenario"] = density
 end
 
 ---Gets the client-side population enabled/disabled state
