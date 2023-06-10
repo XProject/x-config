@@ -8,13 +8,13 @@ local function disableSeatShuffle()
     end
 end
 
-lib.onCache("vehicle", function(value)
+AddEventHandler("ox_lib:cache:vehicle", function(value)
     if value and (GetIsTaskActive(cache.ped, 165) or GetSeatPedIsTryingToEnter(cache.ped) == 0 or cache.seat == 0) then
         disableSeatShuffle()
     end
 end)
 
-lib.onCache("seat", function(value)
+AddEventHandler("ox_lib:cache:seat", function(value)
     if value and value == 0 then
         disableSeatShuffle()
     end

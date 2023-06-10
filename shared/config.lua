@@ -12,6 +12,8 @@ Config.DisableWantedLevel      = true -- Disables the normal GTA wanted level
 
 Config.DisableAutomaticShuffle = true -- Disables the automatic vehicle seat shuffle from passenger to driver
 
+Config.SaveWheelPosition       = true -- Saves the vehicles wheels position exiting from the car
+
 Config.EnablePopulation        = true -- Enables or disables the population
 
 Config.PopulationDensity       = {
