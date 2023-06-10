@@ -3,12 +3,14 @@ CreateThread(function()
         StartAudioScene("CHARACTER_CHANGE_IN_SKY_SCENE")
     end
 
-    if Config.DisableIdleCamera then
-        DisableIdleCamera(true)
-    end
+    DisableIdleCamera(Config.DisableIdleCamera)
 
     for i = 1, #Config.DispatchServices do
         EnableDispatchService(i, Config.DispatchServices[i])
+    end
+
+    for scenario, state in pairs(Config.WorldScenarios) do
+        SetScenarioTypeEnabled(scenario, state)
     end
 
     SetMaxWantedLevel(Config.DisableWantedLevel and 0 or 5)

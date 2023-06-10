@@ -36,15 +36,15 @@ Config.RemoveVehiclesInArea    = {
 
 -- Enables or disables the specified dispatch services. They are used for spawning AI response peds/vehicles for events such as a fire in the street (type 3 - DT_FireDepartment), or gunfire in a gang area (type 11 - DT_Gangs)
 Config.DispatchServices        = {
-    [1] = false,  -- DT_PoliceAutomobile,
-    [2] = false,  -- DT_PoliceHelicopter
-    [3] = false,  -- DT_FireDepartment
-    [4] = false,  -- DT_SwatAutomobile
-    [5] = false,  -- DT_AmbulanceDepartment
-    [6] = false,  -- DT_PoliceRiders
-    [7] = false,  -- DT_PoliceVehicleRequest
-    [8] = false,  -- DT_PoliceRoadBlock
-    [9] = false,  -- DT_PoliceAutomobileWaitPulledOver
+    [1]  = false, -- DT_PoliceAutomobile,
+    [2]  = false, -- DT_PoliceHelicopter
+    [3]  = false, -- DT_FireDepartment
+    [4]  = false, -- DT_SwatAutomobile
+    [5]  = false, -- DT_AmbulanceDepartment
+    [6]  = false, -- DT_PoliceRiders
+    [7]  = false, -- DT_PoliceVehicleRequest
+    [8]  = false, -- DT_PoliceRoadBlock
+    [9]  = false, -- DT_PoliceAutomobileWaitPulledOver
     [10] = false, -- DT_PoliceAutomobileWaitCruising
     [11] = false, -- DT_Gangs
     [12] = false, -- DT_SwatHelicopter
@@ -55,15 +55,15 @@ Config.DispatchServices        = {
 
 -- Hud components that are available to show on screen. If *false*, the specified hud component is moved to out of the screen so it sort of become disable/un-seeable
 Config.HudCommonents           = {
-    [1] = true,   -- WANTED_STARS,
-    [2] = true,   -- WEAPON_ICON
-    [3] = false,  -- CASH
-    [4] = false,  -- MP_CASH
-    [5] = true,   -- MP_MESSAGE
-    [6] = true,   -- VEHICLE_NAME
-    [7] = true,   -- AREA_NAME
-    [8] = false,  -- VEHICLE_CLASS
-    [9] = true,   -- STREET_NAME
+    [1]  = true,  -- WANTED_STARS,
+    [2]  = true,  -- WEAPON_ICON
+    [3]  = false, -- CASH
+    [4]  = false, -- MP_CASH
+    [5]  = true,  -- MP_MESSAGE
+    [6]  = true,  -- VEHICLE_NAME
+    [7]  = true,  -- AREA_NAME
+    [8]  = false, -- VEHICLE_CLASS
+    [9]  = true,  -- STREET_NAME
     [10] = true,  -- HELP_TEXT
     [11] = true,  -- FLOATING_HELP_TEXT_1
     [12] = true,  -- FLOATING_HELP_TEXT_2
@@ -181,4 +181,58 @@ Config.WeaponsToDisablePickup  = {
     `PICKUP_WEAPON_SWITCHBLADE`,
     `PICKUP_WEAPON_VINTAGEPISTOL`,
     `PICKUP_WEAPON_WRENCH`
+}
+
+-- Enables or disables the specified world scenario
+Config.WorldScenarios          = {
+    ["WORLD_VEHICLE_ATTRACTOR"]                  = true,
+    ["WORLD_VEHICLE_AMBULANCE"]                  = true,
+    ["WORLD_VEHICLE_BICYCLE_BMX"]                = true,
+    ["WORLD_VEHICLE_BICYCLE_BMX_BALLAS"]         = true,
+    ["WORLD_VEHICLE_BICYCLE_BMX_FAMILY"]         = true,
+    ["WORLD_VEHICLE_BICYCLE_BMX_HARMONY"]        = true,
+    ["WORLD_VEHICLE_BICYCLE_BMX_VAGOS"]          = true,
+    ["WORLD_VEHICLE_BICYCLE_MOUNTAIN"]           = true,
+    ["WORLD_VEHICLE_BICYCLE_ROAD"]               = true,
+    ["WORLD_VEHICLE_BIKE_OFF_ROAD_RACE"]         = true,
+    ["WORLD_VEHICLE_BIKER"]                      = true,
+    ["WORLD_VEHICLE_BOAT_IDLE"]                  = true,
+    ["WORLD_VEHICLE_BOAT_IDLE_ALAMO"]            = true,
+    ["WORLD_VEHICLE_BOAT_IDLE_MARQUIS"]          = true,
+    ["WORLD_VEHICLE_BROKEN_DOWN"]                = true,
+    ["WORLD_VEHICLE_BUSINESSMEN"]                = true,
+    ["WORLD_VEHICLE_HELI_LIFEGUARD"]             = true,
+    ["WORLD_VEHICLE_CLUCKIN_BELL_TRAILER"]       = true,
+    ["WORLD_VEHICLE_CONSTRUCTION_SOLO"]          = true,
+    ["WORLD_VEHICLE_CONSTRUCTION_PASSENGERS"]    = true,
+    ["WORLD_VEHICLE_DRIVE_PASSENGERS"]           = true,
+    ["WORLD_VEHICLE_DRIVE_PASSENGERS_LIMITED"]   = true,
+    ["WORLD_VEHICLE_DRIVE_SOLO"]                 = true,
+    ["WORLD_VEHICLE_FIRE_TRUCK"]                 = true,
+    ["WORLD_VEHICLE_EMPTY"]                      = true,
+    ["WORLD_VEHICLE_MARIACHI"]                   = true,
+    ["WORLD_VEHICLE_MECHANIC"]                   = true,
+    ["WORLD_VEHICLE_MILITARY_PLANES_BIG"]        = true,
+    ["WORLD_VEHICLE_MILITARY_PLANES_SMALL"]      = true,
+    ["WORLD_VEHICLE_PARK_PARALLEL"]              = true,
+    ["WORLD_VEHICLE_PARK_PERPENDICULAR_NOSE_IN"] = true,
+    ["WORLD_VEHICLE_PASSENGER_EXIT"]             = true,
+    ["WORLD_VEHICLE_POLICE_BIKE"]                = true,
+    ["WORLD_VEHICLE_POLICE_CAR"]                 = true,
+    ["WORLD_VEHICLE_POLICE"]                     = true,
+    ["WORLD_VEHICLE_POLICE_NEXT_TO_CAR"]         = true,
+    ["WORLD_VEHICLE_QUARRY"]                     = true,
+    ["WORLD_VEHICLE_SALTON"]                     = true,
+    ["WORLD_VEHICLE_SALTON_DIRT_BIKE"]           = true,
+    ["WORLD_VEHICLE_SECURITY_CAR"]               = true,
+    ["WORLD_VEHICLE_STREETRACE"]                 = true,
+    ["WORLD_VEHICLE_TOURBUS"]                    = true,
+    ["WORLD_VEHICLE_TOURIST"]                    = true,
+    ["WORLD_VEHICLE_TANDL"]                      = true,
+    ["WORLD_VEHICLE_TRACTOR"]                    = true,
+    ["WORLD_VEHICLE_TRACTOR_BEACH"]              = true,
+    ["WORLD_VEHICLE_TRUCK_LOGS"]                 = true,
+    ["WORLD_VEHICLE_TRUCKS_TRAILERS"]            = true,
+    ["WORLD_VEHICLE_DISTANT_EMPTY_GROUND"]       = true,
+    ["WORLD_HUMAN_PAPARAZZI"]                    = true
 }
