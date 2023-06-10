@@ -38,8 +38,10 @@ function api.disableAimAssist(state)
     disableAimAssist(cache.weapon ~= false)
 end
 
-lib.onCache("weapon", function(value)
+AddEventHandler("ox_lib:cache:weapon", function(value)
     if not Config.DisableAimAssist then return end
 
     disableAimAssist(value ~= false)
 end)
+
+do api.disableAimAssist(Config.DisableAimAssist) end

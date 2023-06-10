@@ -16,6 +16,8 @@ Config.SaveWheelPosition       = true -- Saves the vehicles wheels position exit
 
 Config.DisableVehicleRewards   = true -- Disables receiving weapon by sitting inside emergency class vehicles
 
+Config.DisableWeaponsReticle   = true -- Disables weapons aim reticle - you can still customize the weapons that can have reticle enabled through Config.WeaponsWithReticle
+
 Config.EnablePopulation        = true -- Enables or disables the population
 
 Config.PopulationDensity       = {
@@ -66,13 +68,13 @@ Config.HudCommonents           = {
     [5]  = true,  -- MP_MESSAGE
     [6]  = true,  -- VEHICLE_NAME
     [7]  = true,  -- AREA_NAME
-    [8]  = false, -- VEHICLE_CLASS
+    [8]  = true,  -- VEHICLE_CLASS
     [9]  = true,  -- STREET_NAME
     [10] = true,  -- HELP_TEXT
     [11] = true,  -- FLOATING_HELP_TEXT_1
     [12] = true,  -- FLOATING_HELP_TEXT_2
     [13] = true,  -- CASH_CHANGE
-    [14] = false, -- RETICLE
+    [14] = true,  -- RETICLE
     [15] = true,  -- SUBTITLE_TEXT
     [16] = true,  -- RADIO_STATIONS
     [17] = true,  -- SAVING_GAME,
@@ -81,6 +83,15 @@ Config.HudCommonents           = {
     [20] = false, -- WEAPON_WHEEL_STATS
     [21] = true,  -- HUD_COMPONENTS
     [22] = true,  -- HUD_WEAPONS
+}
+
+-- Weapons that are allowed to have reticle on - Only works if Config.DisableWeaponsReticle is set to *true*
+Config.WeaponsWithReticle      = {
+    `WEAPON_SNIPERRIFLE`,
+    `WEAPON_HEAVYSNIPER`,
+    `WEAPON_HEAVYSNIPER_MK2`,
+    `WEAPON_MARKSMANRIFLE`,
+    `WEAPON_MARKSMANRIFLE_MK2`
 }
 
 -- Weapons that are allowed to be used for suiciding
