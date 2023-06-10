@@ -79,6 +79,22 @@ Config.HudCommonents           = {
     [22] = true,  -- HUD_WEAPONS
 }
 
+-- Weapons that are allowed to be used for suiciding
+Config.SuicideWeapons          = {
+    `WEAPON_PISTOL`,
+    `WEAPON_PISTOL_MK2`,
+    `WEAPON_COMBATPISTOL`,
+    `WEAPON_APPISTOL`,
+    `WEAPON_PISTOL50`,
+    `WEAPON_SNSPISTOL`,
+    `WEAPON_SNSPISTOL_MK2`,
+    `WEAPON_REVOLVER`,
+    `WEAPON_REVOLVER_MK2`,
+    `WEAPON_HEAVYPISTOL`,
+    `WEAPON_VINTAGEPISTOL`,
+    `WEAPON_MARKSMANPISTOL`
+}
+
 -- Prevents player from picking up these dropped weapons on the ground when walking over them
 Config.WeaponsToDisablePickup  = {
     `PICKUP_WEAPON_ADVANCEDRIFLE`,

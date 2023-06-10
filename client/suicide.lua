@@ -1,18 +1,3 @@
-local suicideWeapons = {
-    `WEAPON_PISTOL`,
-    `WEAPON_PISTOL_MK2`,
-    `WEAPON_COMBATPISTOL`,
-    `WEAPON_APPISTOL`,
-    `WEAPON_PISTOL50`,
-    `WEAPON_SNSPISTOL`,
-    `WEAPON_SNSPISTOL_MK2`,
-    `WEAPON_REVOLVER`,
-    `WEAPON_REVOLVER_MK2`,
-    `WEAPON_HEAVYPISTOL`,
-    `WEAPON_VINTAGEPISTOL`,
-    `WEAPON_MARKSMANPISTOL`
-}
-
 local api = setmetatable({}, {
     __newindex = function(self, index, value)
         exports(index, value)
@@ -23,8 +8,8 @@ local api = setmetatable({}, {
 function api.suicide()
     local canSuicide, message = false, "You don't have a pistol in your hand"
 
-    for i = 1, #suicideWeapons do
-        if cache.weapon == suicideWeapons[i] then
+    for i = 1, #Config.SuicideWeapons do
+        if cache.weapon == Config.SuicideWeapons[i] then
             canSuicide = GetAmmoInPedWeapon(cache.ped, cache.weapon) > 0
             message = canSuicide and "You killed yourself :(" or "The pistol in your hand doesn't have any ammo in it"
             break
