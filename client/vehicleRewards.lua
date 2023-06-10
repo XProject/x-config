@@ -6,6 +6,8 @@ local api = setmetatable({}, {
     end
 })
 
+---Enables/Disables emergency class vehicles' weapon rewards
+---@param state boolean
 function api.disableVehicleRewards(state)
     if type(state) ~= "boolean" then return end
     if isVehicleRewardsDisabled == state then return end

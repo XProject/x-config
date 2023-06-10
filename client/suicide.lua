@@ -5,6 +5,7 @@ local api = setmetatable({}, {
     end
 })
 
+---Kills the player by playing suicide animation
 function api.suicide()
     local canSuicide, message = false, "You don't have a pistol in your hand"
 
