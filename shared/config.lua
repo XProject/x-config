@@ -18,6 +18,8 @@ Config.DisableVehicleRewards   = true -- Disables receiving weapon by sitting in
 
 Config.DisableWeaponsReticle   = true -- Disables weapons aim reticle - you can still customize the weapons that can have reticle enabled through Config.WeaponsWithReticle
 
+Config.FirstPersonDriveBy      = true -- Forces the drive by shootout to be in first person view
+
 Config.EnablePopulation        = true -- Enables or disables the population
 
 Config.PopulationDensity       = {
