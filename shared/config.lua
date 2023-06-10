@@ -14,6 +14,8 @@ Config.DisableAutomaticShuffle = true -- Disables the automatic vehicle seat shu
 
 Config.SaveWheelPosition       = true -- Saves the vehicles wheels position exiting from the car
 
+Config.DisableVehicleRewards   = true -- Disables receiving weapon by sitting inside emergency class vehicles
+
 Config.EnablePopulation        = true -- Enables or disables the population
 
 Config.PopulationDensity       = {
