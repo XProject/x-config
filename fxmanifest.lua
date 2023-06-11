@@ -1,12 +1,12 @@
-fx_version  "cerulean"
-use_experimental_fxv2_oal   "yes"
-lua54       "yes"
-game        "gta5"
+fx_version "cerulean"
+use_experimental_fxv2_oal "yes"
+lua54 "yes"
+game "gta5"
 
-name        "x-config"
-version     "0.0.0"
-repository  "https://github.com/XProject/x-config"
-description "Project-X Config: Small Resources"
+name "x-config"
+version "0.1.0"
+repository "https://github.com/XProject/x-config"
+description "Project-X Config: Multiple Small Resources With Their Correspondong APIs"
 
 files {
     "files/*"

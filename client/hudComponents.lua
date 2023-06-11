@@ -1,15 +1,10 @@
-local api = setmetatable({}, {
-    __newindex = function(self, index, value)
-        exports(index, value)
-        rawset(self, index, value)
-    end
-})
+local export = lib.require("files.api")
 
 ---Sets position of the hud component
 ---@param hudId integer
 ---@param posX number
 ---@param posY number
-function api.setHudPosition(hudId, posX, posY)
+function export.setHudPosition(hudId, posX, posY)
     if type(hudId) ~= "number" then return end
     if type(posX) ~= "number" then return end
     if type(posY) ~= "number" then return end
@@ -19,7 +14,7 @@ end
 
 ---Resets position of the hud component
 ---@param hudId integer
-function api.resetHudPosition(hudId)
+function export.resetHudPosition(hudId)
     ResetHudComponentValues(hudId)
 end
 
@@ -28,9 +23,9 @@ do
         local enabled = Config.HudCommonents[hudId]
 
         if enabled then
-            api.resetHudPosition(hudId)
+            export.resetHudPosition(hudId)
         else
-            api.setHudPosition(hudId, 999999.0, 999999.0)
+            export.setHudPosition(hudId, 999999.0, 999999.0)
         end
     end
 end

@@ -1,14 +1,9 @@
-local api = setmetatable({}, {
-    __newindex = function(self, index, value)
-        exports(index, value)
-        rawset(self, index, value)
-    end
-})
+local export = lib.require("files.api")
 
 ---Enables/Disables picking up dropped weapon
 ---@param state boolean
 ---@param weapon? string | number
-function api.enablePickingUpDroppedWeapon(state, weapon)
+function export.enablePickingUpDroppedWeapon(state, weapon)
     if type(state) ~= "boolean" then return end
 
     if weapon then
@@ -23,12 +18,12 @@ function api.enablePickingUpDroppedWeapon(state, weapon)
     end
 end
 
-do api.enablePickingUpDroppedWeapon(Config.EnablePickingUpDroppedWeapon) end
+do export.enablePickingUpDroppedWeapon(Config.EnablePickingUpDroppedWeapon) end
 
 local function onResourceStop(resource)
     if resource ~= cache.resource then return end
 
-    api.enablePickingUpDroppedWeapon(true)
+    export.enablePickingUpDroppedWeapon(true)
 end
 
 AddEventHandler("onResourceStop", onResourceStop)

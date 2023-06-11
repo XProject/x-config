@@ -16,16 +16,11 @@ local function disableAimAssist(state)
     end)
 end
 
-local api = setmetatable({}, {
-    __newindex = function(self, index, value)
-        exports(index, value)
-        rawset(self, index, value)
-    end
-})
+local export = lib.require("files.api")
 
 ---Enables/Disables aim assist
 ---@param state boolean
-function api.disableAimAssist(state)
+function export.disableAimAssist(state)
     if type(state) ~= "boolean" then return end
 
     Config.DisableAimAssist = state
@@ -44,4 +39,4 @@ AddEventHandler("ox_lib:cache:weapon", function(value)
     disableAimAssist(value ~= false)
 end)
 
-do api.disableAimAssist(Config.DisableAimAssist) end
+do export.disableAimAssist(Config.DisableAimAssist) end

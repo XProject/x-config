@@ -20,15 +20,10 @@ AddEventHandler("ox_lib:cache:seat", function(value)
     end
 end)
 
-local api = setmetatable({}, {
-    __newindex = function(self, index, value)
-        exports(index, value)
-        rawset(self, index, value)
-    end
-})
+local export = lib.require("files.api")
 
 ---Makes the player to shuffle its seat from passenger to driver and vice-versa
-function api.shuffleSeat()
+function export.shuffleSeat()
     if not cache.vehicle then return end
 
     if cache.seat == -1 and IsVehicleSeatFree(cache.vehicle, 0) then
@@ -38,4 +33,4 @@ function api.shuffleSeat()
     end
 end
 
-RegisterCommand("shuff", api.shuffleSeat, false)
+RegisterCommand("shuff", export.shuffleSeat, false)

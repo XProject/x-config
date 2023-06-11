@@ -1,14 +1,9 @@
 local isVehicleRewardsDisabled = false
-local api = setmetatable({}, {
-    __newindex = function(self, index, value)
-        exports(index, value)
-        rawset(self, index, value)
-    end
-})
+local export = lib.require("files.api")
 
 ---Enables/Disables emergency class vehicles' weapon rewards
 ---@param state boolean
-function api.disableVehicleRewards(state)
+function export.disableVehicleRewards(state)
     if type(state) ~= "boolean" then return end
     if isVehicleRewardsDisabled == state then return end
 
@@ -29,4 +24,4 @@ function api.disableVehicleRewards(state)
     end)
 end
 
-do api.disableVehicleRewards(Config.DisableVehicleRewards) end
+do export.disableVehicleRewards(Config.DisableVehicleRewards) end

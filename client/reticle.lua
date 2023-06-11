@@ -1,10 +1,5 @@
 local isReticleDisabled = false
-local api = setmetatable({}, {
-    __newindex = function(self, index, value)
-        exports(index, value)
-        rawset(self, index, value)
-    end
-})
+local export = lib.require("files.api")
 
 ---Enables/Disables reticle hud component - Internal use
 ---@param state boolean
@@ -37,7 +32,7 @@ end
 
 ---Enables/Disables reticle hud component
 ---@param state boolean
-function api.reticle(state)
+function export.reticle(state)
     if type(state) ~= "boolean" then return end
 
     Config.DisableWeaponsReticle = state
@@ -57,25 +52,25 @@ end
 ---Checks if the passed weapon has has reticle enabled
 ---@param weaponHash integer | number
 ---@return boolean
-function api.doesWeaponHaveReticleEnabled(weaponHash)
+function export.doesWeaponHaveReticleEnabled(weaponHash)
     return doesWeaponHaveReticleEnabled(weaponHash)
 end
 
 ---Enables the reticle hud component for the specified weapon hash
 ---@param weaponHash integer | number
-function api.enableReticleForWeapon(weaponHash)
+function export.enableReticleForWeapon(weaponHash)
     if type(weaponHash) ~= "number" then return end
 
     if not doesWeaponHaveReticleEnabled(weaponHash) then
         table.insert(Config.WeaponsWithReticle, weaponHash)
     end
 
-    api.reticle(Config.DisableWeaponsReticle)
+    export.reticle(Config.DisableWeaponsReticle)
 end
 
 ---Disables the reticle hud component for the specified weapon hash
 ---@param weaponHash integer | number
-function api.disableReticleForWeapon(weaponHash)
+function export.disableReticleForWeapon(weaponHash)
     if type(weaponHash) ~= "number" then return end
 
     for i = 1, #Config.WeaponsWithReticle do
@@ -85,11 +80,11 @@ function api.disableReticleForWeapon(weaponHash)
         end
     end
 
-    api.reticle(Config.DisableWeaponsReticle)
+    export.reticle(Config.DisableWeaponsReticle)
 end
 
 AddEventHandler("ox_lib:cache:weapon", function()
-    api.reticle(Config.DisableWeaponsReticle)
+    export.reticle(Config.DisableWeaponsReticle)
 end)
 
-do api.reticle(Config.DisableWeaponsReticle) end
+do export.reticle(Config.DisableWeaponsReticle) end

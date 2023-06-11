@@ -1,14 +1,9 @@
 local isPopulationEnabled = false
-local api = setmetatable({}, {
-    __newindex = function(self, index, value)
-        exports(index, value)
-        rawset(self, index, value)
-    end
-})
+local export = lib.require("files.api")
 
 ---Enables/Disables population -  only works if the player's rounting bucket has population enabled on server side...
 ---@param state boolean
-function api.enablePopulation(state)
+function export.enablePopulation(state)
     if type(state) ~= "boolean" then return end
     if isPopulationEnabled == state then return end
 
@@ -28,7 +23,7 @@ end
 
 ---Sets parked vehicles density multiplier
 ---@param density number
-function api.setParkedVehicleDensity(density)
+function export.setParkedVehicleDensity(density)
     if type(density) ~= "number" then return end
 
     Config.PopulationDensity["parkedVehicles"] = density
@@ -36,7 +31,7 @@ end
 
 ---Sets vehicles density multiplier
 ---@param density number
-function api.setVehicleDensity(density)
+function export.setVehicleDensity(density)
     if type(density) ~= "number" then return end
 
     Config.PopulationDensity["vehicles"] = density
@@ -44,7 +39,7 @@ end
 
 ---Sets random vehicle density multiplier
 ---@param density number
-function api.setRandomVehicleDensity(density)
+function export.setRandomVehicleDensity(density)
     if type(density) ~= "number" then return end
 
     Config.PopulationDensity["randomVehicle"] = density
@@ -52,7 +47,7 @@ end
 
 ---Sets peds density multiplier
 ---@param density number
-function api.setPedDensity(density)
+function export.setPedDensity(density)
     if type(density) ~= "number" then return end
 
     Config.PopulationDensity["peds"] = density
@@ -60,7 +55,7 @@ end
 
 ---Sets scenario density multiplier
 ---@param density number
-function api.setScenarioPedDensity(density)
+function export.setScenarioPedDensity(density)
     if type(density) ~= "number" then return end
 
     Config.PopulationDensity["scenario"] = density
@@ -68,8 +63,8 @@ end
 
 ---Gets the client-side population enabled/disabled state
 ---@return boolean
-function api.isPopulationEnabled()
+function export.isPopulationEnabled()
     return isPopulationEnabled
 end
 
-do api.enablePopulation(Config.EnablePopulation) end
+do export.enablePopulation(Config.EnablePopulation) end

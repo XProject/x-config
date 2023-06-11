@@ -1,15 +1,10 @@
-local api = setmetatable({}, {
-    __newindex = function(self, index, value)
-        exports(index, value)
-        rawset(self, index, value)
-    end
-})
+local export = lib.require("files.api")
 
 ---Enables/Disables vehicles from generating in an area
 ---@param state boolean
 ---@param coords vector3
 ---@param range? number defaults to 100.0 if not provided
-function api.generateVehiclesInArea(state, coords, range)
+function export.generateVehiclesInArea(state, coords, range)
     if type(state) ~= "boolean" or not coords then return end
 
     range = range or 100.0
@@ -26,6 +21,6 @@ end
 
 do
     for i = 1, #Config.RemoveVehiclesInArea do
-        api.generateVehiclesInArea(false, Config.RemoveVehiclesInArea[i].coords, Config.RemoveVehiclesInArea[i].range)
+        export.generateVehiclesInArea(false, Config.RemoveVehiclesInArea[i].coords, Config.RemoveVehiclesInArea[i].range)
     end
 end

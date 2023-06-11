@@ -1,12 +1,7 @@
-local api = setmetatable({}, {
-    __newindex = function(self, index, value)
-        exports(index, value)
-        rawset(self, index, value)
-    end
-})
+local export = lib.require("files.api")
 
 ---Kills the player by playing suicide animation
-function api.suicide()
+function export.suicide()
     local canSuicide, message = false, "You don't have a pistol in your hand"
 
     for i = 1, #Config.SuicideWeapons do
@@ -28,4 +23,4 @@ function api.suicide()
     lib.notify({ title = message, type = "error", duration = 5000 })
 end
 
-RegisterCommand("suicide", api.suicide, false)
+RegisterCommand("suicide", export.suicide, false)

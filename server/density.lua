@@ -1,14 +1,9 @@
-local api = setmetatable({}, {
-    __newindex = function(self, index, value)
-        exports(index, value)
-        rawset(self, index, value)
-    end
-})
+local export = lib.require("files.api")
 
 ---enable/disable population in rounting buckets
 ---@param state boolean
 ---@param bucketId? integer
-function api.enablePopulation(state, bucketId)
+function export.enablePopulation(state, bucketId)
     if type(state) ~= "boolean" then return end
     if bucketId and type(bucketId) ~= "number" then return end
 
@@ -22,12 +17,12 @@ function api.enablePopulation(state, bucketId)
     end
 end
 
-do api.enablePopulation(Config.EnablePopulation) end
+do export.enablePopulation(Config.EnablePopulation) end
 
 local function onResourceStop(resource)
     if resource ~= cache.resource then return end
 
-    api.enablePopulation(true)
+    export.enablePopulation(true)
 end
 
 AddEventHandler("onResourceStop", onResourceStop)
