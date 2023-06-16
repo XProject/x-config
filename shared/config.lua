@@ -1,5 +1,7 @@
 Config                               = {}
 
+Config.EnablePVP                     = true  -- Enables the player to shoot other "friendly" peds (other players)
+
 Config.DisableAmbience               = true  -- Disables random vehicle sounds and sirens
 
 Config.DisableDistantCopSirens       = true  -- Disables random distant cop car sirens
