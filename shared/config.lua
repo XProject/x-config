@@ -1,26 +1,28 @@
 Config                               = {}
 
-Config.DisableAmbience               = true -- Disables random vehicle sounds and sirens
+Config.DisableAmbience               = true  -- Disables random vehicle sounds and sirens
 
-Config.DisableDistantCopSirens       = true -- Disables random distant cop car sirens
+Config.DisableDistantCopSirens       = true  -- Disables random distant cop car sirens
 
-Config.DisableIdleCamera             = true -- Disables the game's afk camera that starts panning around after 30 seconds of inactivity
+Config.DisableIdleCamera             = true  -- Disables the game's afk camera that starts panning around after 30 seconds of inactivity
 
-Config.DisableAimAssist              = true -- Disables the aim assist specially while using controllers
+Config.DisableAimAssist              = true  -- Disables the aim assist specially while using controllers
 
-Config.DisableWantedLevel            = true -- Disables the normal GTA wanted level
+Config.DisableWantedLevel            = true  -- Disables the normal GTA wanted level
 
-Config.DisableAutomaticShuffle       = true -- Disables the automatic vehicle seat shuffle from passenger to driver
+Config.DisableAutomaticShuffle       = true  -- Disables the automatic vehicle seat shuffle from passenger to driver
 
-Config.SaveWheelPosition             = true -- Saves the vehicles wheels position exiting from the car
+Config.SaveWheelPosition             = true  -- Saves the vehicles wheels position exiting from the car
 
-Config.DisableVehicleRewards         = true -- Disables receiving weapon by sitting inside emergency class vehicles
+Config.DisableVehicleRewards         = true  -- Disables receiving weapon by sitting inside emergency class vehicles
 
-Config.DisableWeaponsReticle         = true -- Disables weapons aim reticle - you can still customize the weapons that can have reticle enabled through Config.WeaponsWithReticle
+Config.DisableWeaponsReticle         = true  -- Disables weapons aim reticle - you can still customize the weapons that can have reticle enabled through Config.WeaponsWithReticle
 
-Config.DisablePickingUpDroppedWeapon = true -- Prevents player from picking up dropped the weapons on the ground - you can still customize the weapons that cannot be picked up through Config.WeaponsToDisablePickup
+Config.DisablePickingUpDroppedWeapon = true  -- Prevents player from picking up dropped the weapons on the ground - you can still customize the weapons that cannot be picked up through Config.WeaponsToDisablePickup
 
-Config.EnablePopulation              = true -- Enables or disables the population
+Config.HealthRechargeMultiplier      = false -- Indicates the player's health recharge multiplier. Could be a boolean(true or false) or a number between 0.0 and 1.0
+
+Config.EnablePopulation              = true  -- Enables or disables the population
 
 Config.PopulationDensity             = {
     ["peds"] = 0.5,
