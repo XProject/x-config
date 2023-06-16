@@ -3,8 +3,10 @@ local export = lib.require("files.api")
 ---Enables/Disables picking up dropped weapon
 ---@param state boolean
 ---@param weapon? string | number
-function export.enablePickingUpDroppedWeapon(state, weapon)
+function export.disablePickingUpDroppedWeapon(state, weapon)
     if type(state) ~= "boolean" then return end
+
+    state = not state
 
     if weapon then
         weapon = type(weapon) == "string" and joaat(weapon) or weapon
@@ -18,12 +20,12 @@ function export.enablePickingUpDroppedWeapon(state, weapon)
     end
 end
 
-do export.enablePickingUpDroppedWeapon(Config.EnablePickingUpDroppedWeapon) end
+do export.disablePickingUpDroppedWeapon(Config.DisablePickingUpDroppedWeapon) end
 
 local function onResourceStop(resource)
     if resource ~= cache.resource then return end
 
-    export.enablePickingUpDroppedWeapon(true)
+    export.disablePickingUpDroppedWeapon(true)
 end
 
 AddEventHandler("onResourceStop", onResourceStop)

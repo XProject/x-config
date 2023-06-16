@@ -1,26 +1,28 @@
-Config                         = {}
+Config                               = {}
 
-Config.DisableAmbience         = true -- Disables random vehicle sounds and sirens
+Config.DisableAmbience               = true -- Disables random vehicle sounds and sirens
 
-Config.DisableDistantCopSirens = true -- Disables random distant cop car sirens
+Config.DisableDistantCopSirens       = true -- Disables random distant cop car sirens
 
-Config.DisableIdleCamera       = true -- Disables the game's afk camera that starts panning around after 30 seconds of inactivity
+Config.DisableIdleCamera             = true -- Disables the game's afk camera that starts panning around after 30 seconds of inactivity
 
-Config.DisableAimAssist        = true -- Disables the aim assist specially while using controllers
+Config.DisableAimAssist              = true -- Disables the aim assist specially while using controllers
 
-Config.DisableWantedLevel      = true -- Disables the normal GTA wanted level
+Config.DisableWantedLevel            = true -- Disables the normal GTA wanted level
 
-Config.DisableAutomaticShuffle = true -- Disables the automatic vehicle seat shuffle from passenger to driver
+Config.DisableAutomaticShuffle       = true -- Disables the automatic vehicle seat shuffle from passenger to driver
 
-Config.SaveWheelPosition       = true -- Saves the vehicles wheels position exiting from the car
+Config.SaveWheelPosition             = true -- Saves the vehicles wheels position exiting from the car
 
-Config.DisableVehicleRewards   = true -- Disables receiving weapon by sitting inside emergency class vehicles
+Config.DisableVehicleRewards         = true -- Disables receiving weapon by sitting inside emergency class vehicles
 
-Config.DisableWeaponsReticle   = true -- Disables weapons aim reticle - you can still customize the weapons that can have reticle enabled through Config.WeaponsWithReticle
+Config.DisableWeaponsReticle         = true -- Disables weapons aim reticle - you can still customize the weapons that can have reticle enabled through Config.WeaponsWithReticle
 
-Config.EnablePopulation        = true -- Enables or disables the population
+Config.DisablePickingUpDroppedWeapon = true -- Prevents player from picking up dropped the weapons on the ground - you can still customize the weapons that cannot be picked up through Config.WeaponsToDisablePickup
 
-Config.PopulationDensity       = {
+Config.EnablePopulation              = true -- Enables or disables the population
+
+Config.PopulationDensity             = {
     ["peds"] = 0.5,
     ["vehicles"] = 0.2,
     ["parkedVehicles"] = 0.1,
@@ -29,7 +31,7 @@ Config.PopulationDensity       = {
 }
 
 -- Disables the game from spawning random npc vehicles in these area
-Config.RemoveVehiclesInArea    = {
+Config.RemoveVehiclesInArea          = {
     { coords = vector3(441.8465, -987.99, 30.68),   range = 500.0 }, -- Police station mission row
     { coords = vector3(-458.24, 6019.81, 31.34),    range = 300.0 }, -- Police station paleto
     { coords = vector3(1854.82, 3679.4, 33.82),     range = 300.0 }, -- Police station sandy
@@ -41,7 +43,7 @@ Config.RemoveVehiclesInArea    = {
 }
 
 -- Enables or disables the specified dispatch services. They are used for spawning AI response peds/vehicles for events such as a fire in the street (type 3 - DT_FireDepartment), or gunfire in a gang area (type 11 - DT_Gangs)
-Config.DispatchServices        = {
+Config.DispatchServices              = {
     [1]  = false, -- DT_PoliceAutomobile,
     [2]  = false, -- DT_PoliceHelicopter
     [3]  = false, -- DT_FireDepartment
@@ -60,7 +62,7 @@ Config.DispatchServices        = {
 }
 
 -- Hud components that are available to show on screen. If *false*, the specified hud component is moved to out of the screen so it sort of become disable/un-seeable
-Config.HudCommonents           = {
+Config.HudCommonents                 = {
     [1]  = true,  -- WANTED_STARS,
     [2]  = true,  -- WEAPON_ICON
     [3]  = false, -- CASH
@@ -86,7 +88,7 @@ Config.HudCommonents           = {
 }
 
 -- Weapons that are allowed to have reticle on - Only works if Config.DisableWeaponsReticle is set to *true*
-Config.WeaponsWithReticle      = {
+Config.WeaponsWithReticle            = {
     `WEAPON_SNIPERRIFLE`,
     `WEAPON_HEAVYSNIPER`,
     `WEAPON_HEAVYSNIPER_MK2`,
@@ -95,7 +97,7 @@ Config.WeaponsWithReticle      = {
 }
 
 -- Weapons that are allowed to be used for suiciding
-Config.SuicideWeapons          = {
+Config.SuicideWeapons                = {
     `WEAPON_PISTOL`,
     `WEAPON_PISTOL_MK2`,
     `WEAPON_COMBATPISTOL`,
@@ -110,8 +112,8 @@ Config.SuicideWeapons          = {
     `WEAPON_MARKSMANPISTOL`
 }
 
--- Prevents player from picking up these dropped weapons on the ground when walking over them
-Config.WeaponsToDisablePickup  = {
+-- Dropped weapons on the ground that cannot be picked up when walking over them - Only works if Config.DisablePickingUpDroppedWeapon is set to *true*
+Config.WeaponsToDisablePickup        = {
     `PICKUP_WEAPON_ADVANCEDRIFLE`,
     `PICKUP_WEAPON_APPISTOL`,
     `PICKUP_WEAPON_ASSAULTRIFLE`,
@@ -199,7 +201,7 @@ Config.WeaponsToDisablePickup  = {
 }
 
 -- Enables or disables the specified world scenario
-Config.WorldScenarios          = {
+Config.WorldScenarios                = {
     ["WORLD_VEHICLE_ATTRACTOR"]                  = true,
     ["WORLD_VEHICLE_AMBULANCE"]                  = true,
     ["WORLD_VEHICLE_BICYCLE_BMX"]                = true,
