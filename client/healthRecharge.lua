@@ -12,6 +12,12 @@ function export.setHealthRechargeMultiplier(state)
     end
 
     SetPlayerHealthRechargeMultiplier(cache.playerId, state)
+
+    Config.HealthRechargeMultiplier = state
 end
 
 do export.setHealthRechargeMultiplier(Config.HealthRechargeMultiplier) end
+
+AddEventHandler("ox_lib:cache:ped", function(_)
+    export.setHealthRechargeMultiplier(Config.HealthRechargeMultiplier)
+end)
