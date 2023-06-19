@@ -24,6 +24,8 @@ Config.DisablePickingUpDroppedWeapon = true  -- Prevents player from picking up 
 
 Config.HealthRechargeMultiplier      = false -- Indicates the player's health recharge multiplier. Could be a boolean(true or false) or a number between 0.0 and 1.0
 
+Config.RealisticBreakLights          = true  -- Automatically turns the vehicles break lights on in a stationary position
+
 Config.EnablePopulation              = true  -- Enables or disables the population
 
 Config.PopulationDensity             = {
