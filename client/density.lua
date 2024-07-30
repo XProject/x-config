@@ -11,9 +11,9 @@ function export.enablePopulation(state)
 
     CreateThread(function()
         while isPopulationEnabled do
-            SetParkedVehicleDensityMultiplierThisFrame(Config.PopulationDensity["parkedVehicles"])
+            SetParkedVehicleDensityMultiplierThisFrame(Config.PopulationDensity["parked_vehicles"])
             SetVehicleDensityMultiplierThisFrame(Config.PopulationDensity["vehicles"])
-            SetRandomVehicleDensityMultiplierThisFrame(Config.PopulationDensity["randomVehicle"])
+            SetRandomVehicleDensityMultiplierThisFrame(Config.PopulationDensity["random_vehicles"])
             SetPedDensityMultiplierThisFrame(Config.PopulationDensity["peds"])
             SetScenarioPedDensityMultiplierThisFrame(Config.PopulationDensity["scenario"], Config.PopulationDensity["scenario"]) -- Walking NPC Density
             Wait(0)
@@ -26,7 +26,7 @@ end
 function export.setParkedVehicleDensity(density)
     if type(density) ~= "number" then return end
 
-    Config.PopulationDensity["parkedVehicles"] = density
+    Config.PopulationDensity["parked_vehicles"] = density
 end
 
 ---Sets vehicles density multiplier
@@ -42,7 +42,7 @@ end
 function export.setRandomVehicleDensity(density)
     if type(density) ~= "number" then return end
 
-    Config.PopulationDensity["randomVehicle"] = density
+    Config.PopulationDensity["random_vehicles"] = density
 end
 
 ---Sets peds density multiplier
