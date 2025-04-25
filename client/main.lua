@@ -16,18 +16,24 @@ CreateThread(function()
 
     SetAudioFlag("PoliceScannerDisabled", true)
     DistantCopCarSirens(not Config.DisableDistantCopSirens)
-    
+
     SetCreateRandomCops(false)
     SetCreateRandomCopsOnScenarios(false)
     SetCreateRandomCopsNotOnScenarios(false)
-    
+
     SetGarbageTrucks(false)
     SetFarDrawVehicles(false)
     SetDistantCarsEnabled(false)
-    
+
     SetInstancePriorityMode(1)
+    SetInstancePriorityHint(5)
 
     SetMaxWantedLevel(Config.DisableWantedLevel and 0 or 5)
 
     NetworkSetLocalPlayerSyncLookAt(Config.SyncPlayerHeadAngle)
+end)
+
+AddEventHandler("ox_lib:cache:ped", function(newPed)
+    -- This flag is used to allow the ped to sprint in any interior
+    SetPedConfigFlag(newPed, 427, true)
 end)
