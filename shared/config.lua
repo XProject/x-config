@@ -18,7 +18,7 @@ Config.DisableAutomaticShuffle       = true  -- Disables the automatic vehicle s
 
 Config.SaveWheelPosition             = true  -- Saves the vehicles wheels position exiting from the car
 
-Config.DisableVehicleRewards         = true  -- Disables receiving weapon by sitting inside emergency class vehicles
+Config.DisableVehicleRewards         = GetResourceState("ox_inventory") == "missing" -- Disables receiving weapon by sitting inside emergency class vehicles (automatically detects if ox_invntory is available and is handling vehicle reward)
 
 Config.DisableWeaponsReticle         = true  -- Disables weapons aim reticle - you can still customize the weapons that can have reticle enabled through Config.WeaponsWithReticle
 
