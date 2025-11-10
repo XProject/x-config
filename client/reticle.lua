@@ -1,3 +1,4 @@
+local weapon = cache.weapon
 local isReticleDisabled = false
 local export = lib.require("files.api")
 
@@ -42,8 +43,8 @@ function export.reticle(state)
         return
     end
 
-    if cache.weapon then
-        reticle(not doesWeaponHaveReticleEnabled(cache.weapon))
+    if weapon then
+        reticle(not doesWeaponHaveReticleEnabled(weapon))
     else
         reticle(false)
     end
@@ -83,7 +84,9 @@ function export.disableReticleForWeapon(weaponHash)
     export.reticle(Config.DisableWeaponsReticle)
 end
 
-AddEventHandler("ox_lib:cache:weapon", function()
+AddEventHandler("ox_lib:cache:weapon", function(value)
+    weapon = value
+
     export.reticle(Config.DisableWeaponsReticle)
 end)
 
