@@ -2,6 +2,7 @@ fx_version "cerulean"
 use_experimental_fxv2_oal "yes"
 lua54 "yes"
 game "gta5"
+this_is_a_map "yes"
 
 name "x-config"
 version "0.1.0"
@@ -31,3 +32,5 @@ escrow_ignore {
     "server/*.lua",
     "client/*.lua",
 }
+
+data_file "FIVEM_LOVES_YOU_341B23A2F0E0F131" "files/popgroups.ymt"

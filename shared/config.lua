@@ -34,9 +34,9 @@ Config.EnablePopulation              = true                                     
 
 Config.PopulationDensity             = {
     ["peds"] = 0.5,
-    ["vehicles"] = 0.2,
+    ["vehicles"] = 0.4,
     ["parked_vehicles"] = 0.1,
-    ["random_vehicles"] = 1.0,
+    ["random_vehicles"] = 10.0,
     ["scenario"] = 1.0,
 }
 
