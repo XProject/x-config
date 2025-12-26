@@ -6304,6 +6304,55 @@
           <Name>pigalle</Name>
           <Variations type="NULL"/>
         </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>blade</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boor</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>brigham</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>brioso2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>brioso3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>broadway</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>buccaneer2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cheburek</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>chino</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>chino2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>clique2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>club</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -6404,6 +6453,55 @@
         </Item>
         <Item>
           <Name>pigalle</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>blade</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boor</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>brigham</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>brioso2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>brioso3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>broadway</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>buccaneer2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cheburek</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>chino</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>chino2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>clique2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>club</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -6586,6 +6684,55 @@
         </Item>
         <Item>
           <Name>pigalle</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>asbo</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>asterope2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>baller3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>baller4</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>brioso</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>buffalo2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>caracara2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>castigator</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>chavosv6</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>clique</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cog55</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cogcabrio</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -6774,6 +6921,55 @@
           <Name>pigalle</Name>
           <Variations type="NULL"/>
         </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>asbo</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>asterope2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>baller3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>baller4</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>brioso</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>buffalo2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>caracara2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>castigator</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>chavosv6</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>clique</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cog55</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cogcabrio</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_NETWORK_COMMON POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -6910,6 +7106,143 @@
         </Item>
         <Item>
           <Name>furoregt</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>adder</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>aleutian</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>astrale</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>astron</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>autarch</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>baller7</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>baller8</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>banshee2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>banshee3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bestiagts</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>buffalo4</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>buffalo5</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>calico</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>casco</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cavalcade3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>champion</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cheetah</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cheetah2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cheetah3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cinquemila</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cognoscenti</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>comet3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>comet5</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>comet6</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>comet7</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>coquette2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>coquette3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>coquette4</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>coquette5</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>coquette6</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>corsita</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>coureur</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cyclone</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cypher</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -7050,6 +7383,143 @@
           <Name>furoregt</Name>
           <Variations type="NULL"/>
         </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>adder</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>aleutian</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>astrale</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>astron</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>autarch</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>baller7</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>baller8</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>banshee2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>banshee3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bestiagts</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>buffalo4</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>buffalo5</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>calico</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>casco</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cavalcade3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>champion</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cheetah</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cheetah2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cheetah3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cinquemila</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cognoscenti</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>comet3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>comet5</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>comet6</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>comet7</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>coquette2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>coquette3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>coquette4</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>coquette5</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>coquette6</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>corsita</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>coureur</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cyclone</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cypher</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -7118,6 +7588,31 @@
         </Item>
         <Item>
           <Name>tiptruck2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>benson2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville4</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville6</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -7190,6 +7685,31 @@
           <Name>tiptruck2</Name>
           <Variations type="NULL"/>
         </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>benson2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville4</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville6</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -7228,6 +7748,35 @@
           <Name>trash</Name>
           <Variations type="NULL"/>
         </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>boxville</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville4</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville6</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>burrito2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>burrito4</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -7264,6 +7813,35 @@
         </Item>
         <Item>
           <Name>trash</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>boxville</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville4</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>boxville6</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>burrito2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>burrito4</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -7668,6 +8246,39 @@
           <Name>tractor2</Name>
           <Variations type="NULL"/>
         </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>bifta</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bison2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bison3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bodhi2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>brawler</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>brutus</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>caracara2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>comet4</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -7736,6 +8347,39 @@
         </Item>
         <Item>
           <Name>tractor2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>bifta</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bison2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bison3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bodhi2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>brawler</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>brutus</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>caracara2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>comet4</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -7824,6 +8468,23 @@
           <Name>tractor2</Name>
           <Variations type="NULL"/>
         </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>brawler</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>caracara2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>comet4</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>contender</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -7908,6 +8569,23 @@
         </Item>
         <Item>
           <Name>tractor2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>brawler</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>caracara2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>comet4</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>contender</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -8024,6 +8702,31 @@
           <Name>hakuchou</Name>
           <Variations type="NULL"/>
         </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>avarus</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bati2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bf400</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>carbonrs</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>chimera</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cliffhanger</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -8076,6 +8779,31 @@
         </Item>
         <Item>
           <Name>hakuchou</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>avarus</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bati2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bf400</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>carbonrs</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>chimera</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>cliffhanger</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -8222,6 +8950,15 @@
           <Name>bison</Name>
           <Variations type="NULL"/>
         </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>bifta</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bodhi2</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -8274,6 +9011,15 @@
         </Item>
         <Item>
           <Name>bison</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <!-- Missing Vehicles Until Game Build 3717 -->
+        <Item>
+          <Name>bifta</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bodhi2</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
