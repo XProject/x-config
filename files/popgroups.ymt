@@ -6382,6 +6382,30 @@
           <Name>vigero</Name>
           <Variations type="NULL"/>
         </Item>
+        <Item>
+          <Name>tornado</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>warrener</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>glendale</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>rhapsody</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>panto</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>pigalle</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -6591,6 +6615,10 @@
           <Variations type="NULL"/>
         </Item>
         <Item>
+          <Name>blista2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
           <Name>cavalcade</Name>
           <Variations type="NULL"/>
         </Item>
@@ -6608,6 +6636,10 @@
         </Item>
         <Item>
           <Name>dubsta</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dukes</Name>
           <Variations type="NULL"/>
         </Item>
         <Item>
@@ -6707,6 +6739,10 @@
           <Variations type="NULL"/>
         </Item>
         <Item>
+          <Name>stalion</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
           <Name>stanier</Name>
           <Variations type="NULL"/>
         </Item>
@@ -6724,6 +6760,18 @@
         </Item>
         <Item>
           <Name>zion2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>huntley</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>panto</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>pigalle</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -6982,6 +7030,26 @@
           <Name>tornado</Name>
           <Variations type="NULL"/>
         </Item>
+        <Item>
+          <Name>jester</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>alpha</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>massacro</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>huntley</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>furoregt</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -7059,6 +7127,10 @@
       <Name>VEH_HAULAGE_MP</Name>
       <models>
         <Item>
+          <Name>benson</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
           <Name>hauler</Name>
           <Variations type="NULL"/>
         </Item>
@@ -7100,6 +7172,14 @@
         </Item>
         <Item>
           <Name>scrap</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>towtruck</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>towtruck2</Name>
           <Variations type="NULL"/>
         </Item>
         <Item>
@@ -7371,7 +7451,7 @@
           <Variations type="NULL"/>
         </Item>
         <Item>
-          <Name>utillitruck3</Name>
+          <Name>utillitruck</Name>
           <Variations type="NULL"/>
         </Item>
         <Item>
@@ -7400,6 +7480,10 @@
         </Item>
         <Item>
           <Name>bison3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>benson</Name>
           <Variations type="NULL"/>
         </Item>
         <Item>
@@ -7452,6 +7536,14 @@
         </Item>
         <Item>
           <Name>surfer</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>towtruck</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>towtruck2</Name>
           <Variations type="NULL"/>
         </Item>
         <Item>
@@ -7924,6 +8016,14 @@
           <Name>ruffian</Name>
           <Variations type="NULL"/>
         </Item>
+        <Item>
+          <Name>thrust</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>hakuchou</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -8114,6 +8214,14 @@
           <Name>blazer</Name>
           <Variations type="NULL"/>
         </Item>
+        <Item>
+          <Name>sadler</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>bison</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -8240,6 +8348,10 @@
         </Item>
         <Item>
           <Name>dinghy2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>speeder</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -8590,6 +8702,10 @@
       <models>
         <Item>
           <Name>bus</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>taxi</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
