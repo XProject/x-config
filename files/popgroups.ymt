@@ -6353,6 +6353,18 @@
           <Name>club</Name>
           <Variations type="NULL"/>
         </Item>
+        <Item>
+          <Name>dominator10</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dynasty</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>eudora</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -6502,6 +6514,18 @@
         </Item>
         <Item>
           <Name>club</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dominator10</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dynasty</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>eudora</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -6733,6 +6757,46 @@
         </Item>
         <Item>
           <Name>cogcabrio</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>deviant</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dominator7</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dominator8</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dorado</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dubsta2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>elegy</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>elegy2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>ellie</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>everon</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>everon3</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -6968,6 +7032,46 @@
         </Item>
         <Item>
           <Name>cogcabrio</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>deviant</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dominator7</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dominator8</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dorado</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dubsta2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>elegy</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>elegy2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>ellie</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>everon</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>everon3</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -7245,6 +7349,54 @@
           <Name>cypher</Name>
           <Variations type="NULL"/>
         </Item>
+        <Item>
+          <Name>deity</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>deluxo</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>deveste</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dominator3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dominator9</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>drafter</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>emerus</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>entity2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>entity3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>entityxf</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>envisage</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>euros</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -7518,6 +7670,54 @@
         </Item>
         <Item>
           <Name>cypher</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>deity</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>deluxo</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>deveste</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dominator3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dominator9</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>drafter</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>emerus</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>entity2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>entity3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>entityxf</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>envisage</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>euros</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -8279,6 +8479,18 @@
           <Name>comet4</Name>
           <Variations type="NULL"/>
         </Item>
+        <Item>
+          <Name>draugur</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dubsta3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>everon</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -8380,6 +8592,18 @@
         </Item>
         <Item>
           <Name>comet4</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>draugur</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dubsta3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>everon</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -8485,6 +8709,22 @@
           <Name>contender</Name>
           <Variations type="NULL"/>
         </Item>
+        <Item>
+          <Name>dorado</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dubsta3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>everon</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>everon3</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -8586,6 +8826,22 @@
         </Item>
         <Item>
           <Name>contender</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dorado</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>dubsta3</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>everon</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>everon3</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
@@ -8727,6 +8983,30 @@
           <Name>cliffhanger</Name>
           <Variations type="NULL"/>
         </Item>
+        <Item>
+          <Name>daemon2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>defiler</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>diablous</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>diablous2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>enduro</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>esskey</Name>
+          <Variations type="NULL"/>
+        </Item>
       </models>
       <flags>POPGROUP_SCENARIO POPGROUP_AMBIENT</flags>
     </Item>
@@ -8804,6 +9084,30 @@
         </Item>
         <Item>
           <Name>cliffhanger</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>daemon2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>defiler</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>diablous</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>diablous2</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>enduro</Name>
+          <Variations type="NULL"/>
+        </Item>
+        <Item>
+          <Name>esskey</Name>
           <Variations type="NULL"/>
         </Item>
       </models>
